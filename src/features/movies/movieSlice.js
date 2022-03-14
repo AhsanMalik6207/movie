@@ -50,7 +50,7 @@ const movieSlice = createSlice({
             },
         }
 });
-
+// heroku
 export const {removeSelectedMovieOrShow} = movieSlice.actions;
 export const getAllMovies = (state)=> state.movies.movies;
 export const getAllShows = (state)=> state.movies.shows;
